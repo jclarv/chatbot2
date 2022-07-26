@@ -99,7 +99,7 @@ with open('chatlog.csv', 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
     writer.writerow(header)
 
-@app.route("/")
+@app.route("/index")
 def home():
     return render_template("index.html")
 
