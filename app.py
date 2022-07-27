@@ -1,5 +1,6 @@
 import csv
 import os
+import pandas
 from uuid import uuid4
 
 import nltk
